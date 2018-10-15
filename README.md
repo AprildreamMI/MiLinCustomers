@@ -36,7 +36,7 @@
 
 ## 三：项目结构图
 
-![项目结构](C:\Users\Shinelon\Documents\HBuilderProject\1606271741赵思-jsp实训\1606271741赵思-jsp实训\项目描述文件\项目结构.png)
+![项目结构](https://github.com/AprildreamMI/MiLinCustomers/blob/master/%E9%A1%B9%E7%9B%AE%E6%8F%8F%E8%BF%B0%E6%96%87%E4%BB%B6/%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84.png)
 
 ## 四：具体实现
 
