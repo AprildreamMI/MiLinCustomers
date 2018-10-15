@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+/*css 初始化 */
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;				/*清除列表风格*/
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/*防止多行文本框拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    /* border-collapse: collapse; */			/*合并外边线*/
+}
+
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";	/*宋体，Unicode，统一码*/
+    color: #666;
+    background: #fff
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {				
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+/*公共类*/
+.w {
+    /*版心 提取 */
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.al {
+    text-align: left
+}
+
+.ac {
+    text-align: center
+}
+
+.ar {
+    text-align: right
+}
+
+.hide {
+    display: none
+}
+/*公共类*/
+
+.main {
+	background-image: url(../img/alex-shutin-204369-unsplash.jpg);
+	width: 1920px;
+	height: 950px;
+	overflow: hidden;
+}
+.imgTop {
+	width: 300px;
+	margin: 70px auto;
+}
+h1 {
+	text-align: center;
+	font: 500 24px/12px "微软雅黑";
+	color: green;
+}
+.login {
+	text-align: center;
+}
+form {
+	width:800px;
+	height:420px;
+	margin:0px auto;
+	overflow: hidden;
+	position: relative;    /*使表单在浏览器中居中*/
+    margin-top:100px;
+}
+input {
+	width:220px;                                      
+	height:30px;                                 
+	border:1px solid #d4cdba;
+    padding:2px;
+    margin-bottom: 40px;
+	display: inline-block;
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#666666;
+	border-radius:3px; 
+	line-height: 76px;
+}
+.Namegendr {
+    display: none;
+}
+span {
+	margin-left: 30px;
+	font-size: 12px;
+    padding:2px 30px 0;
+    line-height: 76px;
+}
+.lognBox {
+	text-align: center;
+}
+.signBox {
+    display: none;
+	text-align: center;
+}
+button {
+	width: 100px;
+	height: 30px;
+	margin: 2px 5px;
+	background-color: #90ee90;
+	color: white;
+    cursor: pointer;
+}
+button:hover {
+	background-color: red !important;
+}
+.txt{
+    width: 226px;
+    height: 20px;
+    margin: 5px auto;
+}
+.right {
+    color: green;
+}
+.wrong {
+    color: red;
+}
+.head {
+	line-height: 40px;
+	font-size: 22px;
+    height: 40px;
+    color: white;
+	background-color: #03DEDE;
+	margin-bottom:100px;
+}
+.boxTable {
+	width: 600px;
+	height: 80px;
+	margin: 100px auto;
+}
+.tabLe {
+	width: 600px;
+	height: 80px;
+}
+.tableHead {
+	background-color: #35A7EF;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 900;
+}
+#tableBody {
+	background-color: #B1B1B1;
+	text-align: center;
+	color: black;
+	font-weight: 300;
+	border: 1px red solid;
+}
+.fromBox {
+    margin: 20px auto;
+    height: 50px;
+    overflow: hidden;
+}
+

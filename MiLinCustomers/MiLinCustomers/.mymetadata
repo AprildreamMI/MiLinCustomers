@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="MiLinCustomers"
+  id="myeclipse.1528711890093"
+  context-root="/MiLinCustomers"
+  j2ee-spec="5.0"
+  archive="MiLinCustomers.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
